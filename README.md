@@ -12,11 +12,12 @@ Three input files are required to run TEMFIT:
 Depending on the selected efflux mode, TEMFIT has two running modes. It can assume equilibrium between diffusion and hydrolysis (efflux = 0), or it can calculate relative fitness by considering the diffusion and hydrolysis apart (efflux = 1).
 
 The package first checks if the “deSolve” package is installed in the user’s R library, and loads it accordingly. TEMFIT then loads the variables and values specified in the three input files (fileReader.R). If the selected mode is efflux 0, then relative fitness is calculated directly. If the selected mode is efflux 1, the relative fitness is calculated by solving the differentials in TimeTEM.R. A system of equations is used to solve for the concentration of B-lactam in the periplasm, the concentration of B-lactam in the media, the concentration of peptidoglycan, and the concentration of TEM-1. These are solved by determining the diffusion rate, the peptidoglycan-binding-protein (PBP) inhibition rate, the hydrolysis rate, and the efflux rate. 
+
 Finally, TEMFIT outputs the results in a file which contains the rates of change used to solve the equations, the concentration of B-lactam in the periplasm, and the relative fitness of mutants to the wild-type.
 
-#Add link to article
+# Add link to article
 
-#License
+## License
 Copyright (C) 2018 Serohijos Lab
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
