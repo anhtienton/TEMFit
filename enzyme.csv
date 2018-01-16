@@ -1,4 +1,0 @@
-Vmax=2428.8		# Vmax of mutant (uM/s)    
-KM=150 			# KM of mutant  (uM)  
-Vmax_WT=1428*(10^0.564)	# Vmax for TEM-WT (uM/s)  
-KM_WT=50		# KM for TEM-WT  (uM)
