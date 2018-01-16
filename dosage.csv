@@ -1,2 +1,0 @@
-C=7000   		# Concentration of antibiotic (uM)
-t_exp=2*60*60 		# experimental time for monitoring selection (e.g., 2h)   
