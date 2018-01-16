@@ -15,7 +15,7 @@ The package first checks if the “deSolve” package is installed in the user�
 
 Finally, TEMFIT outputs the results in a file which contains the rates of change used to solve the equations, the concentration of B-lactam in the periplasm, and the relative fitness of mutants to the wild-type.
 
-# Add link to article
+#Add link to article
 
 ## License
 Copyright (C) 2018 Serohijos Lab
